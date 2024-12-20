@@ -13,6 +13,10 @@ In this tutorial, I'll show you how to:
 
 Here's a simple Python code to print "Hello World":
 
+# Python code example
+def greet(name):
+    print(f"Hello, {name}!")
+
 ```python
 # Python program to print Hello World
 print("Hello, World!")
