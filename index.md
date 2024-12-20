@@ -17,6 +17,33 @@ Here's a simple Python code to print "Hello World":
 def greet(name):
     print(f"Hello, {name}!")
 
-```python
-# Python program to print Hello World
+# My Tutorial
+
+Here's some code that you can copy:
+
+<div class="code-container">
+  <button class="copy-btn" onclick="copyCode()">Copy</button>
+  <pre id="codeBlock">
+# Python example to print Hello World
 print("Hello, World!")
+  </pre>
+  <span class="copied-notification" id="copiedNotification">Copied!</span>
+</div>
+
+<script>
+  function copyCode() {
+    var codeBlock = document.getElementById("codeBlock");
+    var range = document.createRange();
+    range.selectNode(codeBlock);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+
+    var notification = document.getElementById("copiedNotification");
+    notification.style.display = "block";
+    setTimeout(function() {
+      notification.style.display = "none";
+    }, 2000);
+  }
+</script>
+
