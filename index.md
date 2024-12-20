@@ -14,9 +14,12 @@ print("Hello, World!")
   </pre>
   <span class="copied-notification" id="copiedNotification">Copied!</span>
 </div>
-
+You can learn more on the [New Page](new-page.md).
 <!-- Link to External CSS -->
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <!-- Link to External JavaScript -->
 <script src="script.js"></script>
+
+
+
