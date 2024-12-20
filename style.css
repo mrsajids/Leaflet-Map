@@ -1,12 +1,13 @@
 /* Styling for the code container */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Reddit+Sans+Condensed:wght@200..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 .code-container {
   position: relative;
   margin: 20px 0;
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  background-color: #f6f6f6;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: #000;
+font-family: "Playpen Sans", serif;
 }
 
 /* Code block styling */
@@ -15,7 +16,7 @@ pre {
   padding: 0;
   white-space: pre-wrap;
   word-wrap: break-word;
-  background-color: #1e1e1e;
+  background-color: #000;
   color: #f5f5f5;
   border-radius: 5px;
   overflow-x: auto;
