@@ -8,14 +8,14 @@ leaflet: The core mapping library.
 react-leaflet: The official React wrapper for Leaflet.
 
 <div class="code-container">
-  <button class="copy-btn" onclick="copyCode()">Copy</button>
+  <button class="copy-btn" onclick="copyCode1()">Copy</button>
   <pre id="codeBlock1"> npm install leaflet react-leaflet</pre>
-  <span class="copied-notification" id="copiedNotification">Copied!</span>
+  <span class="copied-notification" id="copiedNotification1">Copied!</span>
 </div>
 
 ## Template code
 <div class="code-container">
-  <button class="copy-btn" onclick="copyCode()">Copy</button>
+  <button class="copy-btn" onclick="copyCode2()">Copy</button>
   <pre id="codeBlock2">// MapComponent.jsx
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
@@ -48,7 +48,7 @@ const MapComponent = () => {
 };
 
 export default MapComponent;</pre>
-  <span class="copied-notification" id="copiedNotification">Copied!</span>
+  <span class="copied-notification" id="copiedNotification2">Copied!</span>
 </div>
 
 it will render map
