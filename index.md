@@ -1,5 +1,4 @@
 # My Leaflet Map Tutorial
- sdk
 
 ## Installation
 
@@ -10,14 +9,11 @@ react-leaflet: The official React wrapper for Leaflet.
 
 <div class="code-container">
   <button class="copy-btn" onclick="copyCode()">Copy</button>
-  <pre id="codeBlock"> npm install leaflet react-leaflet
-  </pre>
+  <pre id="codeBlock"> npm install leaflet react-leaflet</pre>
   <span class="copied-notification" id="copiedNotification">Copied!</span>
 </div>
 
 ## Template code
-MapComponent.jsx
-
 <div class="code-container">
   <button class="copy-btn" onclick="copyCode()">Copy</button>
   <pre id="codeBlock">// MapComponent.jsx
