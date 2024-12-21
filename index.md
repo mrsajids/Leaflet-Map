@@ -9,14 +9,14 @@ react-leaflet: The official React wrapper for Leaflet.
 
 <div class="code-container">
   <button class="copy-btn" onclick="copyCode()">Copy</button>
-  <pre id="codeBlock"> npm install leaflet react-leaflet</pre>
+  <pre id="codeBlock1"> npm install leaflet react-leaflet</pre>
   <span class="copied-notification" id="copiedNotification">Copied!</span>
 </div>
 
 ## Template code
 <div class="code-container">
   <button class="copy-btn" onclick="copyCode()">Copy</button>
-  <pre id="codeBlock">// MapComponent.jsx
+  <pre id="codeBlock2">// MapComponent.jsx
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'; // Import the Leaflet CSS
