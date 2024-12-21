@@ -8,11 +8,13 @@ function copyCode1() {
   document.execCommand("copy"); // Copy the selected content
 
   // Show notification after copy
-  var notification = document.getElementById("copiedNotification1");
-  notification.style.display = "block";
+  var notification = document.getElementById("copy-btn1");
+  notification.style.background = "gray";
+  notification.innerHTML="Copied";
   setTimeout(function() {
-    notification.style.display = "none";
-  }, 2000); // Hide after 2 seconds
+   notification.style.background = "#4CAF50";
+    notification.innerHTML="Copy";
+  }, 2000); // make as it is after 2 seconds
 }
 
 // Function to copy code to clipboard
